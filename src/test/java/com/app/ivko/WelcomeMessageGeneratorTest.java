@@ -213,7 +213,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -231,7 +231,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -249,7 +249,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -267,7 +267,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -285,7 +285,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -303,7 +303,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -321,7 +321,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -339,7 +339,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -357,7 +357,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -375,7 +375,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -393,7 +393,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);
@@ -411,7 +411,7 @@ public class WelcomeMessageGeneratorTest {
 
         //WHEN:
         welcomeMessage = new WelcomeMessageGenerator(time);
-        locale = Locale.getDefault();
+        locale = new Locale("ru");
 
         //THEN:
         actualMessage = welcomeMessage.getWelcomeMessage(locale);

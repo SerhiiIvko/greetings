@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-11-13T20:16:59</date>
-  <millis>1542133019288</millis>
+  <date>2018-11-13T20:38:24</date>
+  <millis>1542134304642</millis>
   <sequence>24</sequence>
   <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
   <level>INFO</level>
