@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-13T20:16:59</date>
+  <millis>1542133019288</millis>
+  <sequence>24</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good evening, World!</message>
+</record>
+</log>
