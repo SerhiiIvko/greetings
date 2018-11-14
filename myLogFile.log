@@ -2,14 +2,14 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-11-13T20:38:24</date>
-  <millis>1542134304642</millis>
-  <sequence>24</sequence>
+  <date>2018-11-13T20:52:34</date>
+  <millis>1542135154955</millis>
+  <sequence>0</sequence>
   <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
   <level>INFO</level>
   <class>com.app.ivko.WelcomeMessageGenerator</class>
   <method>getWelcomeMessage</method>
   <thread>1</thread>
-  <message>Good evening, World!</message>
+  <message>Доброй ночи, Мир!</message>
 </record>
 </log>
