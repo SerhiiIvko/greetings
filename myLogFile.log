@@ -2,14 +2,434 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2018-11-13T20:52:34</date>
-  <millis>1542135154955</millis>
+  <date>2018-11-15T13:56:11</date>
+  <millis>1542282971105</millis>
   <sequence>0</sequence>
   <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
   <level>INFO</level>
   <class>com.app.ivko.WelcomeMessageGenerator</class>
   <method>getWelcomeMessage</method>
   <thread>1</thread>
+  <message>Добрый день, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T13:56:32</date>
+  <millis>1542282992950</millis>
+  <sequence>0</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good morning, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T13:59:08</date>
+  <millis>1542283148857</millis>
+  <sequence>0</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый день, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:17</date>
+  <millis>1542283277064</millis>
+  <sequence>0</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый день, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283901</millis>
+  <sequence>0</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good morning, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283910</millis>
+  <sequence>1</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good morning, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283931</millis>
+  <sequence>2</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good day, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283943</millis>
+  <sequence>3</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good night, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283957</millis>
+  <sequence>4</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый день, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283963</millis>
+  <sequence>5</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый вечер, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283968</millis>
+  <sequence>6</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good day, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283973</millis>
+  <sequence>7</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good day, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283979</millis>
+  <sequence>8</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good night, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283985</millis>
+  <sequence>9</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый вечер, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283990</millis>
+  <sequence>10</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good evening, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:23</date>
+  <millis>1542283283995</millis>
+  <sequence>11</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good evening, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284001</millis>
+  <sequence>12</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый день, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284015</millis>
+  <sequence>13</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый вечер, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284024</millis>
+  <sequence>14</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Доброе утро, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284035</millis>
+  <sequence>15</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good night, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284039</millis>
+  <sequence>16</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Добрый день, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284044</millis>
+  <sequence>17</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Доброе утро, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284048</millis>
+  <sequence>18</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good morning, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284052</millis>
+  <sequence>19</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
   <message>Доброй ночи, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284057</millis>
+  <sequence>20</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Доброй ночи, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284061</millis>
+  <sequence>21</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Доброй ночи, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284065</millis>
+  <sequence>22</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good morning, World!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284068</millis>
+  <sequence>23</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Доброе утро, Мир!</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-11-15T14:01:24</date>
+  <millis>1542283284072</millis>
+  <sequence>24</sequence>
+  <logger>class com.app.ivko.WelcomeMessageGenerator</logger>
+  <level>INFO</level>
+  <class>com.app.ivko.WelcomeMessageGenerator</class>
+  <method>getWelcomeMessage</method>
+  <thread>1</thread>
+  <message>Good evening, World!</message>
 </record>
 </log>

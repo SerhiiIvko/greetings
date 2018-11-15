@@ -12,7 +12,7 @@ public class WelcomeMessageGenerator {
     private static final Logger log = Logger.getLogger(String.valueOf(WelcomeMessageGenerator.class));
     private static SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss");
     private Date currentDate;
-    private FileHandler handler;
+    private ResourceBundle resourceBundle;
 
     public WelcomeMessageGenerator() {
         currentDate = new Date();
@@ -22,56 +22,40 @@ public class WelcomeMessageGenerator {
         currentDate = dateFormat.parse(expectedTime);
     }
 
-    String getWelcomeMessage(Locale locale) throws ParseException {
-        Date currentTime = dateFormat.parse(dateFormat.format(currentDate));
-        Date morningTime = dateFormat.parse(TimeOfDay.MORNING.toString());
-        Date dayTime = dateFormat.parse(TimeOfDay.DAY.toString());
-        Date eveningTime = dateFormat.parse(TimeOfDay.EVENING.toString());
-        Date nightTime = dateFormat.parse(TimeOfDay.NIGHT.toString());
-        ResourceBundle resourceBundle = ResourceBundle.getBundle("message", locale);
-        String resourceMessage;
+    String getWelcomeMessage(Locale locale) {
+        TimeContainer timeContainer = new TimeContainer();
+        resourceBundle = ResourceBundle.getBundle("message", locale);
+        String sentencePattern = resourceBundle.getString("delimiter")
+                + resourceBundle.getString("world_message")
+                + resourceBundle.getString("end_message");
+        String greeting = null;
         try {
-            handler = new FileHandler("myLogFile" + ".log");
+            FileHandler handler = new FileHandler("myLogFile" + ".log", true);
             log.addHandler(handler);
+            greeting = getGreetingPattern(timeContainer) + sentencePattern;
+            log.info(greeting);
+            handler.close();
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        return greeting;
+    }
 
-        if (currentTime.after(morningTime) && currentTime.before(dayTime) || currentTime.equals(morningTime)) {
-            resourceMessage = resourceBundle.getString("morning")
-                    + resourceBundle.getString("delimiter")
-                    + resourceBundle.getString("world_message")
-                    + resourceBundle.getString("end_message");
-            log.info(resourceMessage);
-            log.addHandler(handler);
-            handler.close();
-            return resourceMessage;
-        } else if (currentTime.after(dayTime) && currentTime.before(eveningTime) || currentTime.equals(dayTime)) {
-            resourceMessage = resourceBundle.getString("day")
-                    + resourceBundle.getString("delimiter")
-                    + resourceBundle.getString("world_message")
-                    + resourceBundle.getString("end_message");
-            log.info(resourceMessage);
-            log.addHandler(handler);
-            handler.close();
-            return resourceMessage;
-        } else if (currentTime.after(eveningTime) && currentTime.before(nightTime) || currentTime.equals(eveningTime)) {
-            resourceMessage = resourceBundle.getString("evening")
-                    + resourceBundle.getString("delimiter")
-                    + resourceBundle.getString("world_message")
-                    + resourceBundle.getString("end_message");
-            log.info(resourceMessage);
-            log.addHandler(handler);
-            handler.close();
-            return resourceMessage;
-        } else
-            resourceMessage = resourceBundle.getString("night")
-                    + resourceBundle.getString("delimiter")
-                    + resourceBundle.getString("world_message")
-                    + resourceBundle.getString("end_message");
-        log.info(resourceMessage);
-        log.addHandler(handler);
-        handler.close();
-        return resourceMessage;
+    private String getGreetingPattern(TimeContainer timeContainer) throws ParseException {
+        if (dateFormat.parse(dateFormat.format(currentDate)).after(dateFormat.parse(timeContainer.getMORNING_TIME()))
+                && dateFormat.parse(dateFormat.format(currentDate)).before(dateFormat.parse(timeContainer.getDAY_TIME()))
+                || dateFormat.parse(dateFormat.format(currentDate)).equals(dateFormat.parse(timeContainer.getMORNING_TIME()))) {
+            return resourceBundle.getString("morning");
+        } else if (dateFormat.parse(dateFormat.format(currentDate)).after(dateFormat.parse(timeContainer.getDAY_TIME()))
+                && dateFormat.parse(dateFormat.format(currentDate)).before(dateFormat.parse(timeContainer.getEVENING_TIME()))
+                || dateFormat.parse(dateFormat.format(currentDate)).equals(dateFormat.parse(timeContainer.getDAY_TIME()))) {
+            return resourceBundle.getString("day");
+        } else if (dateFormat.parse(dateFormat.format(currentDate)).after(dateFormat.parse(timeContainer.getEVENING_TIME()))
+                && dateFormat.parse(dateFormat.format(currentDate)).before(dateFormat.parse(timeContainer.getNIGHT_TIME()))
+                || dateFormat.parse(dateFormat.format(currentDate)).equals(dateFormat.parse(timeContainer.getEVENING_TIME()))) {
+            return resourceBundle.getString("evening");
+        } else {
+            return resourceBundle.getString("night");
+        }
     }
 }
